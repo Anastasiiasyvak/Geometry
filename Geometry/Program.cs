@@ -4,16 +4,16 @@ static class Program
 {
     static void Main()
     {
-        string filePath = @"C:\Users\Admin\RiderProjects\Geometry\Geometry\Ukraine points.csv.txt";
+        string filePath = "/home/nastia/for_new_projects/Geometry/Geometry/Ukraine points.csv.txt";
         Console.WriteLine("Separate the elements with a semicolon");
-        string input = Console.ReadLine()!;
+        string input = Console.ReadLine();
         string[] strElements = input.Split(";", StringSplitOptions.RemoveEmptyEntries);
         double[] elements = Array.ConvertAll(strElements, double.Parse);
         var latitude = elements[0];
         var longitude = elements[1];
         var radius = elements[2];
         string[] lines = File.ReadAllLines(filePath);
-
+        double earthRadius = 6371;
         foreach (string line in lines)
         {
             string[] parts = line.Split(";", StringSplitOptions.RemoveEmptyEntries);
@@ -25,7 +25,7 @@ static class Program
                 var partsName = parts[4];
             
                 // haversine ↓↓↓
-                double earthRadius = 6371;
+                
                 double deltaLatitude = DegreeToRadian(partsLatitude - latitude);
                 double deltaLongitude = DegreeToRadian(partsLongitude - longitude);
 
@@ -35,7 +35,7 @@ static class Program
                 double c = 2 * Math.Atan2(Math.Sqrt(a), Math.Sqrt(1 - a));
                 double distance = earthRadius * c;
 
-                if (distance < radius)
+                if (distance <= radius)
                 {
                     Console.WriteLine("Point: " + partsName);
                 }

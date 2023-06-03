@@ -1,0 +1,15 @@
+/home/nastia/for_new_projects/Geometry/Geometry/bin/Debug/net7.0/Geometry
+/home/nastia/for_new_projects/Geometry/Geometry/bin/Debug/net7.0/Geometry.deps.json
+/home/nastia/for_new_projects/Geometry/Geometry/bin/Debug/net7.0/Geometry.runtimeconfig.json
+/home/nastia/for_new_projects/Geometry/Geometry/bin/Debug/net7.0/Geometry.dll
+/home/nastia/for_new_projects/Geometry/Geometry/bin/Debug/net7.0/Geometry.pdb
+/home/nastia/for_new_projects/Geometry/Geometry/obj/Debug/net7.0/Geometry.csproj.AssemblyReference.cache
+/home/nastia/for_new_projects/Geometry/Geometry/obj/Debug/net7.0/Geometry.GeneratedMSBuildEditorConfig.editorconfig
+/home/nastia/for_new_projects/Geometry/Geometry/obj/Debug/net7.0/Geometry.AssemblyInfoInputs.cache
+/home/nastia/for_new_projects/Geometry/Geometry/obj/Debug/net7.0/Geometry.AssemblyInfo.cs
+/home/nastia/for_new_projects/Geometry/Geometry/obj/Debug/net7.0/Geometry.csproj.CoreCompileInputs.cache
+/home/nastia/for_new_projects/Geometry/Geometry/obj/Debug/net7.0/Geometry.dll
+/home/nastia/for_new_projects/Geometry/Geometry/obj/Debug/net7.0/refint/Geometry.dll
+/home/nastia/for_new_projects/Geometry/Geometry/obj/Debug/net7.0/Geometry.pdb
+/home/nastia/for_new_projects/Geometry/Geometry/obj/Debug/net7.0/Geometry.genruntimeconfig.cache
+/home/nastia/for_new_projects/Geometry/Geometry/obj/Debug/net7.0/ref/Geometry.dll
