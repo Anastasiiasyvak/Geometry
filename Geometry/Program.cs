@@ -6,8 +6,8 @@
 //     {
 //         static void Main()
 //         {
-//             string filePath = "/home/nastia/for_new_projects/Geometry/Geometry/Ukraine points.csv.txt";
-//             Console.WriteLine("Separate the elements with a semicolon");
+//             string filePath = @"C:\Users\Admin\RiderProjects\Geometry\Geometry\Ukraine points.csv.txt";
+//             Console.WriteLine("Separate the elements with a semicolon")!;
 //             string input = Console.ReadLine();
 //             string[] strElements = input.Split(";", StringSplitOptions.RemoveEmptyEntries);
 //             double[] elements = Array.ConvertAll(strElements, double.Parse);
