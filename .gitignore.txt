@@ -1,0 +1,50 @@
+# Rider specific
+.idea/
+
+# Build results
+/bin/
+/obj/
+
+# .NET Core
+*.dll
+*.exe
+*.pdb
+*.userprefs
+
+# .NET
+*.suo
+*.cache
+*.csproj.user
+*.bak
+*.vs/
+*.nupkg
+/Package/
+/obj/
+/TestResults/
+
+# Visual Studio Code
+.vscode/
+
+# ReSharper
+_ReSharper*/
+*.resharper*
+*.DotSettings.user
+
+# Test files
+*.testsettings
+*.runsettings
+*.loadtest
+
+# Build tooling
+msbuild.log
+msbuild.err
+msbuild.wrn
+
+# Roslyn
+*.ide
+*.sln.ide
+*.editorconfig
+
+# NuGet
+*.nuget.props
+*.nuget.targets
