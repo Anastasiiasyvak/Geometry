@@ -48,3 +48,5 @@ msbuild.wrn
 # NuGet
 *.nuget.props
 *.nuget.targets
+
+*.idea
